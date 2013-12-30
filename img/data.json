@@ -1,0 +1,623 @@
+{"subjects": [
+    {
+        "birthnumber": "21342345",
+        "name": "Jozef",
+        "state": "CALL1",
+        "role": "Žiadateľ",
+        "surname": "Mrkvička",
+        "active": true,
+        "parentResource": null,
+        "restangularCollection": false,
+        "kindofproof": "OP",
+        "evidencenbr": "+",
+        "familystate": "M"
+    },
+    {
+        "relationtype": "Manželka",
+        "birthnumber": "",
+        "sex": "F",
+        "error": true,
+        "name": "Daniela",
+        "state": "INIT",
+        "role": "Spoludlžník",
+        "surname": "Mrkvičková",
+        "active": false
+    }
+], "modeling": {
+    "current": {
+        "space": [
+            {
+                "úver": 145000,
+                "type": "HU",
+                "priestor": 10000
+            },
+            {
+                "úver": 6000,
+                "type": "BUC",
+                "priestor": 22000
+            },
+            {
+                "úver": 6000,
+                "type": "CC",
+                "priestor": 0
+            }
+        ]
+    }
+}, "state": "INIT", "nehnutelnost": [
+    {
+        "basic": {
+            "state": "ROZ",
+            "active": true,
+            "type": "RD"
+        },
+        "lv": [
+            {
+                "stavby": [
+                    {
+                        "status": "PLA",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "DOK",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "123541111",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "E",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "234"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            },
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "DOK",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "1325623",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            },
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "623",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "basic": {
+            "state": "DOK",
+            "active": true,
+            "type": "RD"
+        },
+        "lv": [
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "123",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            },
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "1325623",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            },
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "623",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "basic": {
+            "state": "DOK",
+            "active": true,
+            "type": "RD"
+        },
+        "lv": [
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "123",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            },
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "1325623",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            },
+            {
+                "stavby": [
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "1234",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    },
+                    {
+                        "status": "Dokončená",
+                        "parcely": [
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "888"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "777"
+                            },
+                            {
+                                "description": "rodinný dom",
+                                "cislo": "666"
+                            }
+                        ],
+                        "sc": "124",
+                        "zabez": true,
+                        "kind": "Rodinný dom"
+                    }
+                ],
+                "clv": "623",
+                "parcely": [
+                    {
+                        "nbr": "881/3",
+                        "ce": "C",
+                        "zabez": true,
+                        "kind": "lesné pozemky",
+                        "size": "100"
+                    },
+                    {
+                        "nbr": "81/3",
+                        "ce": "C",
+                        "zabez": false,
+                        "kind": "ostatné plochy",
+                        "size": "105"
+                    }
+                ]
+            }
+        ]
+    }
+], "route": "consultation", "parentResource": null, "restangularCollection": false}

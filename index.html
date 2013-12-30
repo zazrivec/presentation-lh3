@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" media="all" href="theme/css/default.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+    <base target="_blank">
+    <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+    <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="img/bannerII.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+        <hgroup class="auto-fadein">
+            <h1 data-config-title><!-- populated from slide_config.json --></h1>
+
+            <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+
+            <p data-config-presenter><!-- populated from slide_config.json --></p>
+        </hgroup>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Agenda</h2>
+        </hgroup>
+        <article>
+            <ul class="build">
+                <li>Motivácia - teória</li>
+                <li>Návrh riešenia</li>
+                <li>Ukážka aplikácie</li>
+                <li>Otázky</li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Motivácia - teória</h2>
+            <h3>Všeobecné požiadavky</h3>
+        </hgroup>
+        <article>
+            <p>Čo očakáva používateľ:</p>
+            <ul class="build">
+                <li><b>Všetky služby - plná podpora zo strany aplikácie</b></li>
+                <li><b>Zážitok z používania</b></li>
+                <ul>
+                    <li>Rýchlosť – odozva [Miller 1968](10s, 1s, 0.1s)</li>
+                    <li>Vizuálne trendy
+                        <ul>
+                            <li>Responsive layout</li>
+                            <li>UX Centered design</li>
+                            <li>Simplicity of Design Interaction and Content</li>
+                            <li>Content first</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li><b>Dostupnosť v ľubovoľnom čase a na ľubovoľnom zariadení</b></li>
+                <li><b>Zabezpečenie pred stratou, Konzistencia</b></li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Motivácia - teória</h2>
+            <h3>Požiadavky LH3</h3>
+        </hgroup>
+        <article>
+            <ul class="build">
+                <li>Komplexné dáta</li>
+                <li>Dokumentovo orientovaná</li>
+                <li>Modelovanie dát</li>
+                <li>Integrácia na iné systémy</li>
+                <li>Prepojenie s BPM</li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Dokumentovo orientované UI</h2>
+            <h3>Aký typ UI?</h3>
+        </hgroup>
+        <article>
+            <ul class="build">
+                <li>Komplexné a viacnásobné vnárania (nehnuteľnosti)</li>
+                <li>Časti dokumentu nemôžu existovať osamote</li>
+                <li>Potreba byť neustále v kontexte</li>
+                <li>Iteratívna práca s dokumentom (modelovanie)</li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Návrh riešenia</h2>
+            <h3>Frontend</h3>
+        </hgroup>
+        <article>
+            <p>Technológie:</p>
+            <div class="columns-2">
+                <ul>
+                    <li>HTML5, CSS3 - IE9 a vyššie</li>
+                    <li>Vizualizácia dát - natívne grafy, infografika</li>
+                    <li>Single page application</li>
+                    <li>SOFEA - ďalší slajd</li>
+                    <li>REST - JAX-RS</li>
+                    <li>Tapestry - SS Component based, aj SOFEA</li>
+                    <li>JavaScript MV* - vyššia abstrakcia pri implementácií - AngularJS</li>
+                </ul>
+                <img style="height: 200px" src="img/html5.png">
+                <img style="height: 200px" src="img/d3js.gif">
+            </div>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Návrh riešenia</h2>
+            <h3>Frontend - SOFEA</h3>
+        </hgroup>
+        <article>
+            <img src="img/sofea.jpg">
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Návrh riešenia</h2>
+            <h3>Benefity vývoj</h3>
+        </hgroup>
+        <article>
+            <ul class="build">
+                <li>píše sa HTML, CSS - LESS. JS - Coffee script</li>
+                <li>Môže robiť web dizajner - non Java vývojar</li>
+                <li>FE plne v rukách web vývojára - optimalizácie, layout customizácia</li>
+                <li>Rýchla adopcia komponentov tretích strán</li>
+                <li>Hit refresh workflow - tvorím na živej aplikácií</li>
+                <li>Backend vývoj píše služby a vystavuje - jasný kontrakt</li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Návrh riešenia</h2>
+            <h3>Benefity prevadzka a používatelia</h3>
+        </hgroup>
+        <article>
+            <ul class="build">
+                <li>SPA šetrenie prenosového pásma</li>
+                <li>Klient môže fungovať offline</li>
+                <li>Verzionovať FE aj služby</li>
+                <li>Služby môže konzumovať aj iný FE (BE)</li>
+                <li>Štandardná technológia</li>
+                <li>Interaktivita</li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Návrh riešenia</h2>
+            <h3>Zápory</h3>
+        </hgroup>
+        <article>
+            <ul class="build">
+                <li>Duplicitná implementácia validácií</li>
+                <li>Prezradenie logiky a modelu na klienta</li>
+                <li>Vyťažovanie klienta</li>
+            </ul>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Ukážka aplikácie</h2>
+        </hgroup>
+        <article>
+        </article>
+    </slide>
+
+
+    <slide class="segue dark quote nobackground">
+        <aside class="gdbar right bottom"><img src="img/bannerII.png"></aside>
+        <article class="flexbox vleft auto-fadein">
+            <q>
+                Otázky?
+            </q>
+        </article>
+    </slide>
+
+    <slide class="thank-you-slide segue nobackground">
+        <aside class="gdbar right"><img src="img/bannerII.png"></aside>
+        <article class="flexbox vleft auto-fadein">
+            <h2>Ďakujem za pozornosť!</h2>
+
+            <p>Kontakt</p>
+        </article>
+        <p class="auto-fadein" data-config-contact>
+            <!-- populated from slide_config.json -->
+        </p>
+    </slide>
+
+    <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+<script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
